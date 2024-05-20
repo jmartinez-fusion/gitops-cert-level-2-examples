@@ -12,10 +12,7 @@ spec:
   project: default
 
   # Source of the application manifests
-  sources:
-  - repoURL: https://github.com/jmartinez-fusion/gitops-cert-level-2-examples.git
-    targetRevision: HEAD
-    path: ./app-of-apps/my-app-list
+  source:  
   - repoURL: https://github.com/jmartinez-fusion/gitops-cert-level-2-examples.git
     targetRevision: HEAD
     path: ./app-of-apps/more-apps
